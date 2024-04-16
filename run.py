@@ -5,7 +5,7 @@ from openai import OpenAI  # For interacting with the OpenAI API, specifically G
 from Module1.mod1 import scrape_article_content, read_article_urls_from_file
 
 # Define your OpenAI API key
-OPENAI_API_KEY = "**********"  # Replace with your actual OpenAI API key
+OPENAI_API_KEY = "**"  # Replace with your actual OpenAI API key
 
 def useLLMApi(article_text):
     client = OpenAI(api_key=OPENAI_API_KEY)
